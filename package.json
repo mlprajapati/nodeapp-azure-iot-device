@@ -2,6 +2,10 @@
   "name": "qrscanner-server",
   "version": "0.1.0",
   "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "azure-iot-device": "^1.7.1",
     "azure-iot-device-amqp": "^1.7.1",
