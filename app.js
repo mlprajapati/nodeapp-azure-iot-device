@@ -83,10 +83,10 @@ app.post('/', (req, res) => {
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
 
-httpServer.listen(9090, () => {
+httpServer.listen(8080, () => {
   console.log("HTTP Server is listening on port 9090");
 });
-httpsServer.listen(9443, () => {
+httpsServer.listen(443, () => {
   console.log("HTTPS Server is listening on port 9443");
 });
 
