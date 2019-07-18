@@ -37,7 +37,9 @@ app.use(cors());
 app.get('/', (req, res) => {
   res.json({ "message": "Welcome to Node JS application." });
 });
-
+app.get('/check', (req, res) => {
+  res.json({ "message": "Welcome to Node JS application." });
+});
 app.post('/', (req, res) => {
   //var newCustomer = req.body;
   console.log(req.body);
